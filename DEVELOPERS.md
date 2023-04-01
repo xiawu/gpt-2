@@ -79,7 +79,7 @@ python3 src/generate_unconditional_samples.py -- --help
 
 To give the model custom prompts, you can use:
 ```
-python3 src/interactive_conditional_samples.py --top_k 40
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python python3 src/interactive_conditional_samples.py --top_k 40
 ```
 
 To check flag descriptions, use:
